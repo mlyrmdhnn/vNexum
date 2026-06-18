@@ -6,9 +6,9 @@
 
 ## Installation
 
-\```bash
+```bash
 npm install vnexum-vue
-\```
+```
 
 ## Documentation
 
