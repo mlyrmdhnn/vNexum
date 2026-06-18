@@ -9,7 +9,7 @@ export const logger = {
     if (isProduction) return;
 
     console.log(
-      "%c[Nexus-Info]",
+      "%c[vNexum-Info]",
       "color:#10b981;font-weight:bold",
       message,
       ...args,
@@ -20,7 +20,7 @@ export const logger = {
     if (isProduction) return;
 
     console.warn(
-      "%c[Nexus-Warn]",
+      "%c[vNexum-Warn]",
       "color:#f59e0b;font-weight:bold",
       message,
       ...args,
@@ -31,7 +31,7 @@ export const logger = {
     if (isProduction) return;
 
     console.error(
-      "%c[Nexus-Error]",
+      "%c[vNexum-Error]",
       "color:#ef4444;font-weight:bold",
       message,
       ...args,
